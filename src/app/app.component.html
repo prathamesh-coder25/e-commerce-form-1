@@ -28,8 +28,8 @@
             <div class="form-group">
               <label for="ProductName">Product Name</label>
               <input type="text" class="form-control" required ngModel name="ProductName" #ProductName="ngModel">
-              <strong class="text-danger" *ngIf="ProductName.touched && ProductName.hasError('required')">this field are
-                mandatory!!</strong>
+              <strong class="text-danger" *ngIf="ProductName.touched && ProductName.hasError('required')">this field is
+                required!!</strong>
             </div>
 
 
